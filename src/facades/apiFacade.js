@@ -1,4 +1,4 @@
-const URL = "http://localhost:8080";
+const URL = "https://gaagle.info/tomcat/CA2_Backend/api";
 
 const handleHttpErrors = async (res) => {
   if (!res.ok) {
@@ -48,7 +48,7 @@ function apiFacade() {
 
   const login = async (user, password) => {
     const options = makeOptions("POST", true, {
-      name: user,
+      username: user,
       password: password,
     });
 
