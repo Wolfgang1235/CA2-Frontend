@@ -30,7 +30,7 @@ const App = () => {
           path="contact"
           element={
             <Contact
-              name="Andreas"
+              name="AName"
               address={{
                 town: "Sometown",
                 street: "Somestreet",
