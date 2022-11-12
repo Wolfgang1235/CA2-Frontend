@@ -1,7 +1,6 @@
 // api urls
 
-const url = "";
+const url = "https://gaagle.info/tomcat/CA2_Backend/api/";
 
-const getApiUrl = () => {
-    return url
-}
+
+export default url;
